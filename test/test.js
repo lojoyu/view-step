@@ -1,7 +1,7 @@
 import ViewStep from '../src/index';
 import $ from 'jquery';
 
-let vs = new ViewStep('step', 1, 3);
+let vs = new ViewStep('.step', 1, 3, {}, 1000);
 $('#btn').click(function() {
     vs.showNext();
 })
