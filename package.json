@@ -1,6 +1,6 @@
 {
   "name": "@zonesoundcreative/view-step",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to switch content in one scene.",
   "main": "dist/main.bundle.js",
   "directories": {
