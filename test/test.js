@@ -8,3 +8,7 @@ $('#btn').click(function() {
 $('#btn2').click(function() {
     vs.showNext(false);
 })
+
+$('#btn3').click(function() {
+    vs.showPrev();
+})

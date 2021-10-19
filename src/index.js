@@ -42,7 +42,7 @@ export default class ViewStep{
     showPrev(hideCurrent=true, init=false) {
         let wait = 0;
         if (hideCurrent) {
-            vhide(this.getNowId());
+            this.vhide(this.getNowId());
             wait = this.fade;
             //$(this.getNowId()).hide();
         }
